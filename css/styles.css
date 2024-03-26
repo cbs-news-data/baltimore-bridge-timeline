@@ -16,7 +16,7 @@ img {
    display: block;
 }
 
-.section-header {
+/*.section-header {
    font-family: le-monde-livre-classic-byol, serif;
    font-weight: 500;
    font-style: normal;
@@ -39,26 +39,30 @@ img {
 
 .section-directions {
    text-align: center;
+}*/
+
+#timeline {
+   max-width: 980px;
 }
 
 
 .timeline-container {
-   width: 100%;
+   max-width: 100%;
    height: 0px;
    padding-bottom: 60%;
    position: relative;
    background-color: white;
 }
 
-.timeline-overlay {
+/*.timeline-overlay {
    height: 100%;
    width: 100%;
    position: absolute;
    top: 0px;
    left: 0px;
-   /*background-color: rgba(0,0,0,0.5);*/
+   /*background-color: rgba(0,0,0,0.5);
    z-index: 749;
-}
+}*/
 
 #videos {
    width: 100%;
@@ -84,7 +88,7 @@ img {
    }   
 
 .back, .next {
-   width: 50px;
+   width: 40px;
 /*   background-color: white;*/
    position: absolute;
    top: 80%;
@@ -102,12 +106,12 @@ img {
 }
 
 .timeline-content{
-   background: linear-gradient(0deg, rgba(255,255,255,1) 57%, rgba(255,255,255,0.5) 78%, rgba(255,255,255,0) 100%);
+   background: linear-gradient(0deg, rgba(255,255,255,1) 57%, rgba(255,255,255,0.9) 75%, rgba(255,255,255,0) 100%);
    position: absolute;
-   top: 70%;
+   top: 50%;
    width: 100%;
    z-index: 700;
-   padding: 40px;
+   padding: 70px;
    font-family: "proxima-nova", sans-serif;
    font-weight: 300;
    font-style: normal;
@@ -121,12 +125,12 @@ img {
    left: 0%;*/
 /*   width: 100%;*/
    text-align: center;
+   top: 65%;
 }
 
 .segment-title {
-   color: #120f41;
+   color: black;
    font-size: 2em;
-   color: #120f41;
    line-height: 1.5em;
 }
 
@@ -180,6 +184,42 @@ img {
 
 @media only screen and (max-width: 640px) {
 
+   .timeline-content {
+      top: 45%;
+   }
+
+   .segment0 {
+      top: 55%;
+   }
+
+   .segment-title {
+      font-size: 1.5em;
+   }
+
+   .back, .next {
+      width: 35px;
+   }
+}
+
+
+@media only screen and (max-width: 500px) {
+
+   .timeline-content {
+      top: 40%;
+      padding: 50px;
+   }
+
+   .segment0 {
+      top: 55%;
+   } 
+
+   .segment-title {
+      font-size: 1.2em;
+   }
+
+   .back, .next {
+      width: 30px;
+   }
 
 }
 
