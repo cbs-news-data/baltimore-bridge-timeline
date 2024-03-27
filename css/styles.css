@@ -183,6 +183,10 @@ img {
    /*box-shadow: 0px 0px 5px grey;*/
 }
 
+.segment-desc audio {
+   width: 100%;
+}
+
 .outline {
    border: 2px solid red;
    padding: 0px 1px;
@@ -205,34 +209,44 @@ img {
 
 @media only screen and (max-width: 640px) {
 
-   /*.timeline-content {
-      top: 45%;
+   .timeline-container {
+      height: 450px;
+   }
+
+   .timeline-content {
+      top: 380px;
+      padding: 25px 55px;
    }
 
    .segment0 {
-      top: 55%;
-   }*/
+      top: 400px;
+   }
 
    .segment-title {
       font-size: 1.5em;
    }
 
    .back, .next {
-      width: 35px;
+      width: 30px;
+
    }
 }
 
 
 @media only screen and (max-width: 500px) {
 
-/*   .timeline-content {
-      top: 40%;
-      padding: 50px;
+.timeline-container {
+      height: 360px;
+   }
+
+   .timeline-content {
+      top: 270px;
+      padding: 25px 30px;
    }
 
    .segment0 {
-      top: 55%;
-   } */
+      top: 300px;
+   }
 
    .segment-title {
       font-size: 1.2em;
@@ -240,6 +254,7 @@ img {
 
    .back, .next {
       width: 30px;
+      bottom: 20px;
    }
 
 }
