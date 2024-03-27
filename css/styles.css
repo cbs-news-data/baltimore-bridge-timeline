@@ -114,9 +114,9 @@ img {
 }
 
 .timeline-content{
-   background: linear-gradient(0deg, rgba(255,255,255,1) 57%, rgba(255,255,255,1) 75%, rgba(255,255,255,0) 100%);
+   background: linear-gradient(0deg, rgba(255,255,255,1) 57%, rgba(255,255,255,1) 90%, rgba(255,255,255,0) 100%);
    position: absolute;
-   bottom: -150px;
+   top: 500px;
    width: 100%;
    z-index: 700;
    padding: 25px 70px;
@@ -133,7 +133,7 @@ img {
    left: 0%;*/
 /*   width: 100%;*/
    text-align: center;
-   bottom: -150px;
+   top: 545px;
 
 
 }
@@ -142,6 +142,7 @@ img {
    color: black;
    font-size: 2em;
    line-height: 1.5em;
+   border-bottom: 2px solid black;
 }
 
 .segment-title h2 {
@@ -178,7 +179,18 @@ img {
 /*   margin: auto;*/
    padding: 10px;
    font-size: 18px;
+   line-height: 25px;
    /*box-shadow: 0px 0px 5px grey;*/
+}
+
+.outline {
+   border: 2px solid red;
+   padding: 0px 1px;
+}
+
+.typical-outline {
+   border: 2px solid green;
+   padding: 0px 1px;
 }
 
 

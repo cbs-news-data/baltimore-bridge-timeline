@@ -49,7 +49,7 @@ $(document).ready(function(){ // begin document.ready block
 	    			console.log(videonum)
 	    			console.log(prev_videonum)
 
-	    			$(".timeline-content").addClass("segment0").html('<div class="segment-title title'+timeline[timeline_counter].position+'"><h2>'+timeline[timeline_counter].title+'</h2><div class="segment-desc">'+timeline[timeline_counter].desc+'</div></div>')
+	    			$(".timeline-content").addClass("segment0").html('<div class="segment-title title'+timeline[timeline_counter].position+'"><h2>'+timeline[timeline_counter].title+'</h2></div><div class="segment-desc">'+timeline[timeline_counter].desc+'</div>')
 	    			
 	    			$('.'+videonum).animate({"opacity":"1"})
 	    			$('.'+prev_videonum).animate({"opacity":"0"})
@@ -88,7 +88,7 @@ $(document).ready(function(){ // begin document.ready block
 	    			console.log(videonum)
 	    			console.log(prev_videonum)
 
-	    			$(".timeline-content").addClass("segment0").html('<div class="segment-title title'+timeline[timeline_counter].position+'"><h2>'+timeline[timeline_counter].title+'</h2><div class="segment-desc">'+timeline[timeline_counter].desc+'</div></div>')
+	    			$(".timeline-content").addClass("segment0").html('<div class="segment-title title'+timeline[timeline_counter].position+'"><h2>'+timeline[timeline_counter].title+'</h2></div><div class="segment-desc">'+timeline[timeline_counter].desc+'</div>')
 
 	    			$('.'+videonum).animate({"opacity":"1"})
 	    			$('.'+prev_videonum).animate({"opacity":"0"})
