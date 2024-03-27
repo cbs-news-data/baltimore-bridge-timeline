@@ -48,8 +48,7 @@ img {
 
 .timeline-container {
    max-width: 100%;
-   height: 0px;
-   padding-bottom: 60%;
+   height: 600px;
    position: relative;
    background-color: white;
 }
@@ -73,6 +72,7 @@ img {
 
    .video {
       width: 100%;
+      height: 100%;
       position: absolute;
       top: 0px;
       left: 0px;
@@ -81,6 +81,14 @@ img {
 
       .video video {
          width: 100%;
+         height: 100%;
+         object-fit: cover;
+      }
+
+      .video img {
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
       }
 
    .video0 {
@@ -91,7 +99,7 @@ img {
    width: 40px;
 /*   background-color: white;*/
    position: absolute;
-   top: 80%;
+   bottom: -60px;
    z-index: 750;
    cursor: pointer;
 }
@@ -106,12 +114,12 @@ img {
 }
 
 .timeline-content{
-   background: linear-gradient(0deg, rgba(255,255,255,1) 57%, rgba(255,255,255,0.9) 75%, rgba(255,255,255,0) 100%);
+   background: linear-gradient(0deg, rgba(255,255,255,1) 57%, rgba(255,255,255,1) 75%, rgba(255,255,255,0) 100%);
    position: absolute;
-   top: 50%;
+   bottom: -150px;
    width: 100%;
    z-index: 700;
-   padding: 70px;
+   padding: 25px 70px;
    font-family: "proxima-nova", sans-serif;
    font-weight: 300;
    font-style: normal;
@@ -125,7 +133,9 @@ img {
    left: 0%;*/
 /*   width: 100%;*/
    text-align: center;
-   top: 65%;
+   bottom: -150px;
+
+
 }
 
 .segment-title {
@@ -166,7 +176,6 @@ img {
 .segment-desc {
    width: 100%;
 /*   margin: auto;*/
-   background-color: rgba(255, 255, 255, 0.6);
    padding: 10px;
    font-size: 18px;
    /*box-shadow: 0px 0px 5px grey;*/
@@ -184,13 +193,13 @@ img {
 
 @media only screen and (max-width: 640px) {
 
-   .timeline-content {
+   /*.timeline-content {
       top: 45%;
    }
 
    .segment0 {
       top: 55%;
-   }
+   }*/
 
    .segment-title {
       font-size: 1.5em;
@@ -204,14 +213,14 @@ img {
 
 @media only screen and (max-width: 500px) {
 
-   .timeline-content {
+/*   .timeline-content {
       top: 40%;
       padding: 50px;
    }
 
    .segment0 {
       top: 55%;
-   } 
+   } */
 
    .segment-title {
       font-size: 1.2em;
