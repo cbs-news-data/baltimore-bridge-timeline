@@ -99,7 +99,7 @@ img {
    width: 40px;
 /*   background-color: white;*/
    position: absolute;
-   bottom: -60px;
+   bottom: -120px;
    z-index: 750;
    cursor: pointer;
 }
@@ -241,7 +241,7 @@ img {
 
    .timeline-content {
       top: 270px;
-      padding: 25px 30px;
+      padding: 25px 40px;
    }
 
    .segment0 {
@@ -254,7 +254,7 @@ img {
 
    .back, .next {
       width: 30px;
-      bottom: 20px;
+      bottom: -100px;
    }
 
 }
