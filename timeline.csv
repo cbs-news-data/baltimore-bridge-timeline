@@ -2,7 +2,7 @@
 0,Baltimore Bridge Collapse Timeline,,"<img src=""img/BALTIMORE_COLLAPSE_BG_2.jpg"">",<p>Click the arrow to start</p>
 1,Ship leaves dock,About 12:45 AM EST,"<video playsinline autoplay muted loop src=""media/video1.mp4"" type=""video/mp4"">
 </video>","<p>The container ship, Dali, <span class=""outline"">leaves the dock</span>, traveling about 0.5 knots, or less than one mph.</p>"
-2,Begins arc,12:56 AM EST,"<video id=""video"" playsinline autoplay muted loop><source src=""media/video2.mp4"" type=""video/mp4""/>
+2,Begins arc,12:56 AM EST,"<video id=""video"" playsinline autoplay muted loop preload=""metadata""><source src=""media/video2.mp4"" type=""video/mp4""/>
 </video>","<p>The ship begins an arc around the Seagirt Marine Terminal, traveling about 4 knots, or less than 5 mph.</p>"
 3,Reaches max speed,1:25 AM EST,"<video id=""video"" playsinline autoplay muted loop><source src=""media/video3.mp4"" type=""video/mp4""/>
 </video>","<p>The ship reaches max speed of about 8.7 knots (about 10 mph), minutes before the crash</p>"
